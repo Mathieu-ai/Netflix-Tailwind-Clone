@@ -1,0 +1,1151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Netflix</title>
+    <link href="./html.html" rel="import" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link href="./assets/css/style.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/674ccd36be.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="/tailwind.config.js"></script>
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="./images/NetflixLogo.png"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </head>
+</html>
+
+
+</head>
+  <body style="background: rgb(0, 0, 0)">
+    
+    <div
+      class="lg:text-white lg:fixed lg:top-0 lg:bg-gradient-to-b lg:from-black lg:w-full lg:z-50"
+    >
+      <div
+        class="lg:px-16 lg:flex lg:my-5 lg:flex-wrapp items-center md:flex-row items-center"
+      >
+        <a>
+          <img
+ src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"
+ class="-mt-4 mx-5 w-1/3 md:w-1/4 lg:w-20 transform scale-110"
+ alt=""
+          />
+        </a>
+        <ul class="hidden lg:flex space-x-3 ml-12">
+          <li class="font-semibold">Home</li>
+          <li>TV Shows</li>
+          <li>Movies</li>
+          <li>New & Popular</li>
+          <li>My Lists</li>
+        </ul>
+        <nav
+          class="ml-auto hidden lg:flex space-x-6 items-center justify-center"
+        >
+          <i class="transform scale-110 fas fa-search"></i>
+          <p class="font-semibold">KIDS</p>
+          <i class="transform scale-110 fas fa-gift"></i>
+          <i class="transform scale-110 fas fa-bell"></i>
+          <button class="flex items-center">
+ <img
+   class="w-10 border-2 border-gray-900"
+   src="https://pbs.twimg.com/profile_images/1229818782811594752/eHwlKzVK_400x400.jpg"
+   alt=""
+ />
+ <i class="transform rotate-180 ml-1 -mt-4 fas fa-sort-up"></i>
+          </button>
+        </nav>
+      </div>
+    </div>
+    <div class="relative">
+      <div
+        class="absolute lg:h-full lg:px-16 lg:h-full lg:flex lg:items-center lg:justify-start"
+      >
+        <div class="lg:relative lg:w-2/5 lg:space-y-4 lg:py-12">
+          <img
+ class="w-2/4 mx-5 my-12 lg:transform scale-110 lg:w-4/5"
+ src="https://freepngimg.com/thumb/one_piece/22969-5-one-piece-logo-photos.png"
+ alt=""
+          />
+          <p
+ class="text-white font-semibold mx-5 my-40 p-10 md:text-white text-semibold lg:text-lg lg:font-semibold lg:text-white"
+          >
+ The series focuses on Monkey D. Luffy, a young man who, inspired by
+ his childhood idol and powerful pirate"Red Haired" Shanks, sets off
+ on a journey from the East Blue Sea to find the titular treasure and
+ proclaim himself the King of the Pirates.
+          </p>
+          <div class="mx-6 -my-56 p-10 lg:transform scale-110">
+ <div
+   class="flex space-x-5 lg:flex lg:space-x-4 lg:flex-row lg:w-full lg:-my-24"
+ >
+   <button
+     class="items-center shadow-md rounded-lg bg-white space-x-2 px-3 lg:mt-5 lg:justify-center lg:flex lg:w-32"
+   >
+     <i class="fas fa-play"></i>
+     <span class="text-gray-800 font-semibold">Play</span>
+   </button>
+   <button
+     class="px-3 lg:mt-5 items-center shadow-md rounded-lg bg-gray-800 bg-opacity-50 lg:space-x-2 py-2 lg:justify-center lg:flex lg:w-auto"
+   >
+     <i class="text-white fas fa-info-circle"></i>
+     <span class="text-white font-semibold">More info</span>
+   </button>
+ </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="absolute w-full h-64 bottom-0 bg-gradient-to-t from-black"
+      ></div>
+      <video
+        class="-mt-4 lg:-mt-12 w-full h-64 lg:h-screen object-cover lg:-mt-8"
+        autoplay
+        muted
+        loop
+      >
+        <source
+          class="w-full object-contain"
+          src="./images/movies/Header/one-piece-ship-live-wallpaper.mp4"
+          type="video/mp4"
+        />
+      </video>
+    </div>
+
+
+    <!-- PREMIERE CAROUSEL -->
+
+<div id="ALLCarousel" class="mt-16 pt-56 lg:mt-0 lg:pt-0">
+    <h1 class="ml-16 text-2xl font-bold pt-4 text-white">Popular on Netflix</h1>
+<!-- partial:index.partial.html -->
+<div id="dailymotion">
+  <div class="owl-carousel owl-theme">
+    <div class="box">
+  <img
+    src="./images/movies/Popular/Popular (1).PNG"
+  />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+
+    
+    <!-- Box Start -->
+<div class="box">
+  <img src="./images/movies/Popular/Popular (2).PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+
+<!-- Box End -->
+
+<!-- Box Start -->
+<div class="box">
+  <img src="./images/movies/Popular/Popular (3).PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+<!-- Box End -->
+
+
+    <!-- Box Start -->
+<div class="box">
+  <img src="./images/movies/Popular/Popular (4).PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+<!-- Box End -->
+
+<!-- Box Start -->
+<div class="box">
+  <img src="./images/movies/Popular/Popular (5).PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+<!-- Box End -->
+
+
+    <!-- Box Start -->
+<div class="box">
+  <img src="./images/movies/Popular/Popular (6).PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+<!-- Box End -->
+
+<!-- Box Start -->
+<div class="box">
+  <img src="./images/movies/Popular/Popular (7).PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+<!-- Box End -->
+
+
+    <!-- Box Start -->
+<div class="box">
+  <img src="./images/movies/Popular/Popular (8).PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+<!-- Box End -->
+
+
+    <!-- Box Start -->
+<div class="box">
+  <img src="./images/movies/Popular/Popular (9).PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+
+    <!-- Box End -->
+  </div>
+
+  <!-- PREMIERE CAROUSEL -->
+
+  <!-- DEUXIEME CAROUSEL -->
+    
+    <h1 class="ml-16 text-2xl font-bold pt-4 text-white">My List</h1>
+<!-- partial:index.partial.html -->
+<div id="dailymotion">
+  <div class="owl-carousel owl-theme">
+    <div class="box">
+  <img src="./images/movies/MyList/1.PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+
+    
+    <!-- Box Start -->
+<div class="box">
+  <img src="./images/movies/MyList/2.PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+<!-- Box End -->
+
+
+    <!-- Box Start -->
+<div class="box">
+  <img src="./images/movies/MyList/3.PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+<!-- Box End -->
+
+
+    <!-- Box Start -->
+<div class="box">
+  <img src="./images/movies/MyList/4.PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+<!-- Box End -->
+
+
+    <!-- Box Start -->
+<div class="box">
+  <img src="./images/movies/MyList/5.PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+<!-- Box End -->
+
+
+    <!-- Box Start -->
+<div class="box">
+  <img src="./images/movies/MyList/6.PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+<!-- Box End -->
+
+
+    <!-- Box Start -->
+<div class="box">
+  <img src="./images/movies/MyList/7.PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+<!-- Box End -->
+
+
+   <!-- Box Start -->
+<div class="box">
+  <img src="./images/movies/MyList/8.PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+<!-- Box End -->
+
+
+    <!-- Box Start -->
+<div class="box">
+  <img src="./images/movies/MyList/9.PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+<!-- Box End -->
+
+  </div>
+
+  <!-- DEUXIEME CAROUSEL -->
+
+  <!-- TROISIEME CAROUSEL -->
+    
+    <h1 class="ml-16 text-2xl font-bold pt-4 text-white">Continue Watching for Mathieu</h1>
+<!-- partial:index.partial.html -->
+<div id="dailymotion">
+  <div class="owl-carousel owl-theme">
+    <div class="box">
+  <img src="./images/movies/Continue Watching for Mathieu/1.PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+
+
+
+    
+    <!-- Box Start -->
+<div class="box">
+  <img src="./images/movies/Continue Watching for Mathieu/2.PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+<!-- Box End -->
+
+    <!-- Box Start -->
+<div class="box">
+  <img src="./images/movies/Continue Watching for Mathieu/3.PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+<!-- Box End -->
+</div>
+
+<div class=" relative pt-1 w-2/3 ml-12 md:hidden lg:ml-12  lg:w-2/12">
+  <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-white">
+    <div style="width:30%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-red-700"></div>
+  </div>
+</div>
+
+<div class="grid justify-self-start md:hidden lg:mr-20 lg:-mt-8">
+<div class="relative pt-1 w-2/3 ml-12 lg:justify-self-center lg:w-2/12">
+  <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-white">
+    <div style="width:30%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-red-700"></div>
+  </div>
+</div>
+</div>
+
+
+
+
+
+  <!-- TROISIEME CAROUSEL -->
+
+  <!-- QUATRIEME CAROUSEL -->
+    
+    <h1 class="ml-16 text-2xl font-bold pt-4 text-white">Netflix Originals</h1>
+<!-- partial:index.partial.html -->
+<div id="dailymotion">
+  <div class="owl-carousel owl-theme">
+    <div class="box">
+  <img src="./images/movies/Originals/1.PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+
+    
+    <!-- Box Start -->
+<div class="box">
+  <img src="./images/movies/Originals/2.PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+<!-- Box End -->
+
+
+    <!-- Box Start -->
+<div class="box">
+  <img src="./images/movies/Originals/3.PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+<!-- Box End -->
+
+
+    <!-- Box Start -->
+<div class="box">
+  <img src="./images/movies/Originals/4.PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+<!-- Box End -->
+
+
+    <!-- Box Start -->
+<div class="box">
+  <img src="./images/movies/Originals/5.PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+<!-- Box End -->
+
+
+    <!-- Box Start -->
+<div class="box">
+  <img src="./images/movies/Originals/6.PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+<!-- Box End -->
+
+
+    <!-- Box Start -->
+<div class="box">
+  <img src="./images/movies/Originals/7.PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+<!-- Box End -->
+
+
+   <!-- Box Start -->
+<div class="box">
+  <img src="./images/movies/Originals/8.PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+<!-- Box End -->
+
+
+    <!-- Box Start -->
+<div class="box">
+  <img src="./images/movies/Originals/9.PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+<!-- Box End -->
+
+  </div>
+
+  <!-- QUATRIEME CAROUSEL -->
+
+  <!-- CINQUIEME CAROUSEL -->
+    
+    <h1 class="ml-16 text-2xl font-bold pt-4 text-white">Top 10 in France Today</h1>
+
+<div id="dailymotion" class="-mt-12">
+  <div class="owl-carousel owl-theme">
+    <div class="box">
+  <img src="./images/movies/Top10/1.PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+
+    
+    <!-- Box Start -->
+<div class="box">
+  <img src="./images/movies/Top10/2.PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+<!-- Box End -->
+
+
+    <!-- Box Start -->
+<div class="box">
+  <img src="./images/movies/Top10/3.PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+<!-- Box End -->
+
+
+    <!-- Box Start -->
+<div class="box">
+  <img src="./images/movies/Top10/4.PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+<!-- Box End -->
+
+
+    <!-- Box Start -->
+<div class="box">
+  <img src="./images/movies/Top10/5.PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+<!-- Box End -->
+
+
+    <!-- Box Start -->
+<div class="box">
+  <img src="./images/movies/Top10/6.PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+<!-- Box End -->
+
+
+    <!-- Box Start -->
+<div class="box">
+  <img src="./images/movies/Top10/7.PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+<!-- Box End -->
+
+
+   <!-- Box Start -->
+<div class="box">
+  <img src="./images/movies/Top10/8.PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+<!-- Box End -->
+
+
+    <!-- Box Start -->
+<div class="box">
+  <img src="./images/movies/Top10/9.PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+<!-- Box End -->
+
+    <!-- Box Start -->
+<div class="box">
+  <img src="./images/movies/Top10/10.PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+<!-- Box End -->
+
+  </div>
+    
+
+  <!-- CINQUIEME CAROUSEL -->
+
+  <!-- SIXIEME CAROUSEL -->
+    
+    <h1 class="ml-16 text-2xl font-bold pt-4 text-white">Watch It Again</h1>
+<!-- partial:index.partial.html -->
+<div id="dailymotion">
+  <div class="owl-carousel owl-theme">
+    <div class="box">
+  <img src="./images/movies/WatchItAgain/1.PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+
+    
+    <!-- Box Start -->
+<div class="box">
+  <img src="./images/movies/WatchItAgain/2.PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+<!-- Box End -->
+
+
+    <!-- Box Start -->
+<div class="box">
+  <img src="./images/movies/WatchItAgain/3.PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+<!-- Box End -->
+
+
+    <!-- Box Start -->
+<div class="box">
+  <img src="./images/movies/WatchItAgain/4.PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+<!-- Box End -->
+
+
+    <!-- Box Start -->
+<div class="box">
+  <img src="./images/movies/WatchItAgain/5.PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+<!-- Box End -->
+
+
+    <!-- Box Start -->
+<div class="box">
+  <img src="./images/movies/WatchItAgain/6.PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+<!-- Box End -->
+
+
+    <!-- Box Start -->
+<div class="box">
+  <img src="./images/movies/WatchItAgain/7.PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+<!-- Box End -->
+
+
+   <!-- Box Start -->
+<div class="box">
+  <img src="./images/movies/WatchItAgain/8.PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+<!-- Box End -->
+
+
+    <!-- Box Start -->
+<div class="box">
+  <img src="./images/movies/WatchItAgain/9.PNG" />
+  <div class="overlay">
+    <div class="row-1"></div>
+    <div class="row-2">
+      <div class="play-button">
+        <a href="#"> </a>
+      </div>
+    </div>
+    <div class="row-3">
+      <a href="#"> </a>
+    </div>
+  </div>
+</div>
+<!-- Box End -->
+
+  </div>
+
+  <!-- SIXIEME CAROUSEL -->
+  
+<!--footer-->
+
+  <section class="flex justify-center  pt-16 pb-4">
+    <div class="space-y-2  ml-12 md:w-2/3 lg:w-1/2 lg:ml-0">
+
+    <!--Social Media-->
+
+    <div class="flex space-x-5 ">
+      <i class="fab fa-facebook-square"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-youtube"></i>
+    </div>
+
+    <!--Social Media-->
+
+    <!-- Footer Text -->
+    
+    <div class="flex justify-between pr-4 md:pr-8">
+      <div class="flex flex-col text-sm ">
+        <p class="text-gray-400 pb-4">Audio and Subtitles</p>
+        <p class="text-gray-400 pb-4">Media Centre</p>
+        <p class="text-gray-400 pb-4">Privacy</p>
+        <p class="text-gray-400 pb-4">Contact Us</p>
+      </div>
+      <div class="flex flex-col text-sm pr-4 md:pr-8">
+        <p class="text-gray-400 pb-4">Audio Description</p>
+        <p class="text-gray-400 pb-4">Investor Relations</p>
+        <p class="text-gray-400 pb-4">Legal Notices</p>
+      </div>
+      <div class="flex flex-col text-sm pr-4 md:pr-8">
+        <P class="text-gray-400 pb-4">Help Center</P>
+        <P class="text-gray-400 pb-4">Jobs</P>
+        <P class="text-gray-400 pb-4">Cookies Preferences</P>
+      </div>
+      <div class="flex flex-col text-sm pr-4 md:pr-8">
+        <P class="text-gray-400 pb-4">Gift Cards</P>
+        <P class="text-gray-400 pb-4">Terms of Use</P>
+        <P class="text-gray-400 pb-4">Corporate Information </P>
+      </div>
+    </div>
+
+    <!-- Footer Text -->
+
+    <!--Service code button-->
+    
+    <div class="pb-4">
+      <button
+        class="text-gray-400 border border-gray-400 px-2 py-1 hover:bg-gray-900"
+      >
+        <p class="text-sm hover:text-gray-300 ">Service Code</p>
+      </button>
+    </div>
+
+    <!--Service code button-->
+
+    <!--Copyright-->
+
+    <div class="flex text-gray-400 text-xs align-center">
+      <p class="items-center">© 1997-2021 Netflix, Inc. {i-058c0143344da746e}</p>
+    </div>
+
+    <!--Copyright-->
+
+  </div>
+</section>
+
+
+</body>
+</html>
