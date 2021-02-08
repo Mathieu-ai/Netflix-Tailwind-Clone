@@ -16,12 +16,12 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
     />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
     <link
       href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
       rel="stylesheet"
     />
-    <link href="./assets/css/style.css" rel="stylesheet" />
+    <link href="./assets/css/styles.css" rel="stylesheet" />
     <script
       src="https://kit.fontawesome.com/674ccd36be.js"
       crossorigin="anonymous"
@@ -34,7 +34,7 @@
     />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/main.js"></script>
   </head>
 </html>
 
@@ -129,7 +129,7 @@
       >
         <source
           class="w-full object-contain"
-          src="./images/movies/Header/one-piece-ship-live-wallpaper.mp4"
+          src="./assets/images/movies/Header/one-piece-ship-live-wallpaper.mp4"
           type="video/mp4"
         />
       </video>
@@ -138,1013 +138,999 @@
 
     <!-- PREMIERE CAROUSEL -->
 
-<div id="ALLCarousel" class="mt-16 pt-56 lg:mt-0 lg:pt-0">
-    <h1 class="ml-16 text-2xl font-bold pt-4 text-white">Popular on Netflix</h1>
-<!-- partial:index.partial.html -->
-<div id="dailymotion">
-  <div class="owl-carousel owl-theme">
-    <div class="box">
-  <img
-    src="./images/movies/Popular/Popular (1).PNG"
-  />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
+<section class="text-white">
+
+  <!-- My List -->
+  <div class="pl-12 py-9">
+    <p class="font-semibold">My List</p>
+
+    <!-- left arrow -->
+    <div class="flex items-center relative">
+      <div class="left-arrow absolute left-0 leftArrow1 z-50" onClick="leftScroll('.scroll1','.leftArrow1')">
+        <button class="p-4 h-32 outline-none hover:bg-gray-900 hover:bg-opacity-50 outline-none focus:outline-none"><i class="fas fa-angle-left"></i></button>
+      </div>
+
+      <div class="container-carousel scroll1">
+        <div class="carousel grid gap-2 ">
+
+          <!-- 1st pic -->
+          <div class="pics">
+            <div class="box h-42 relative overflow-hidden transition duration-1000 ease-in-out transform hover:scale-110 hover:bg-gray-900">
+              <div class="imageBox">
+                <a href="#">
+                  <img class="rounded" src="./assets/images/movies/MyList/1.PNG" alt="undifined">
+                </a>
+              </div>
+
+              <div class="content absolute top-0 left-0 w-full px-6 py-3 transform translate-y-40">
+                <div>
+                  <!-- SVG Icons -->
+                  <div class="flex text-xs mb-3 sm:justify-between md:justify-evenly lg:justify-between">
+                    <div class="flex space-x-1">
+                      <i class="fas fa-play-circle sm:text-4xl md:text-3xl lg:text-4xl"></i>
+                      <svg class="sm:w-9 sm:h-9 md:w-7 md:h-7 lg:w-9 lg:h-9 border border-1 rounded-full p-2" viewBox="0 0 24 24"><path d="M13 11h8v2h-8v8h-2v-8H3v-2h8V3h2v8z" fill="currentColor"></path></svg>
+                      <svg class="sm:w-9 sm:h-9 md:w-7 md:h-7 lg:w-9 lg:h-9 border border-1 rounded-full p-2" viewBox="0 0 24 24"><path d="M19.583 20.488c0 1.055-.985 1.398-1.764 1.467l-5.798.023c-4.675 0-4.446-1.49-8.021-1.787v-7.173l2.544-1.444 3.094-5.592s.343-4.514.343-4.744c0 0 2.773-1.352 3.484 2.384.687 3.735.206 6.05.068 6.37h6.05c.802.092 1.788.482 1.788 1.559 0 1.031-.986 1.398-1.788 1.444l.62.023c.778.091 1.787.435 1.787 1.49 0 1.076-1.009 1.42-1.788 1.489l-1.214.023c.825.068 1.81.435 1.81 1.49 0 1.03-.985 1.42-1.81 1.466h-1.17c.78.092 1.765.458 1.765 1.512z" fill="currentColor"></path></svg>
+                      <svg class="sm:w-9 sm:h-9 md:w-7 md:h-7 lg:w-9 lg:h-9 border border-1 rounded-full p-2" viewBox="0 0 24 24"><path d="M8.833 15.006H5.44l-.068-.023c-1.56-.138-2.867-.987-2.867-2.73 0-.275.046-.527.092-.78C2.23 11.038 2 10.487 2 9.753c0-.963.39-1.52 1.032-1.978-.023-.183-.023-.252-.023-.39 0-.963.39-1.784 1.009-2.243-.023-.206-.023-.275-.023-.39 0-1.743 1.33-2.591 2.89-2.73L11.79 2c2.04 0 3.05.252 4.563.895.917.39 1.353.527 2.27.619L20 3.629v8.234l-2.476 1.445-2.27 4.427c0 .046-.085 1.552-.253 4.52l-.871.389c-.092.069-.275.138-.505.184-.664.206-1.398.252-2.132 0-1.261-.436-2.064-1.537-2.408-3.258a19.743 19.743 0 0 1-.26-2.564l.008-2zm4.42 2.246l2.758-5.376L18 10.715v-5.26c-.845-.113-1.44-.3-2.427-.72C14.203 4.156 13.453 4 11.8 4l-4.816.023c-.742.078-.895.3-1.015.542-.201.4-.201.876 0 1.425-.558.184-.917.479-1.078.883-.182.457-.182.966 0 1.528-.601.228-.901.64-.901 1.238s.202 1.038.608 1.32c-.23.46-.26.892-.094 1.294.168.404.298.627 1.043.738l.172.015h5.207l-.095 2.09c-.066 1.448.009 2.875.216 4.082.216 1.084.582 1.58 1.096 1.758.259.09.546.086.876-.014.003-.06.081-1.283.235-3.67z" fill="currentColor"></path></svg>
+                    </div>
+                    <div>
+                      <svg class="sm:w-9 sm:h-9 md:w-7 md:h-7 lg:w-9 lg:h-9 border border-1 rounded-full p-2" viewBox="0 0 24 24"><path fill="currentColor" d="M5.689 7.924L4.387 9.442 12.038 16l7.651-6.558-1.302-1.518-6.349 5.442z"></path></svg>
+                    </div>
+                  </div>
+                  <!-- Episode Description -->
+                  <p class="font-semibold text-xs">S2:E15 <span class="font-light">"Blood Must Have Blood, Part 1"</span></p>
+
+                  <div class="flex justify-center space-x-2 items-center">
+                    <div class="border-red bg-red-600 w-3/6 h-1"></div>
+                    <p class="mb-0 text-xs">40 of 41 min</p>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2nd pic -->
+          <div class="pics">
+            <div class="box h-42 transition duration-500 ease-in-out transform hover:scale-110 hover:bg-gray-900">
+              <div class="imageBox">
+                <a href="#">
+                  <img class="rounded" src="./assets/images/movies/MyList/2.PNG" alt="undifined">
+                </a>
+              </div>
+
+              <div class="content absolute top-0 left-0 w-full px-6 py-3 transform translate-y-40">
+                <div>
+                  <!-- SVG Icons -->
+                  <div class="flex text-xs mb-3 sm:justify-between md:justify-evenly lg:justify-between">
+                    <div class="flex space-x-1">
+                      <i class="fas fa-play-circle sm:text-4xl md:text-3xl lg:text-4xl"></i>
+                      <svg class="sm:w-9 sm:h-9 md:w-7 md:h-7 lg:w-9 lg:h-9 border border-1 rounded-full p-2" viewBox="0 0 24 24"><path d="M13 11h8v2h-8v8h-2v-8H3v-2h8V3h2v8z" fill="currentColor"></path></svg>
+                      <svg class="sm:w-9 sm:h-9 md:w-7 md:h-7 lg:w-9 lg:h-9 border border-1 rounded-full p-2" viewBox="0 0 24 24"><path d="M19.583 20.488c0 1.055-.985 1.398-1.764 1.467l-5.798.023c-4.675 0-4.446-1.49-8.021-1.787v-7.173l2.544-1.444 3.094-5.592s.343-4.514.343-4.744c0 0 2.773-1.352 3.484 2.384.687 3.735.206 6.05.068 6.37h6.05c.802.092 1.788.482 1.788 1.559 0 1.031-.986 1.398-1.788 1.444l.62.023c.778.091 1.787.435 1.787 1.49 0 1.076-1.009 1.42-1.788 1.489l-1.214.023c.825.068 1.81.435 1.81 1.49 0 1.03-.985 1.42-1.81 1.466h-1.17c.78.092 1.765.458 1.765 1.512z" fill="currentColor"></path></svg>
+                      <svg class="sm:w-9 sm:h-9 md:w-7 md:h-7 lg:w-9 lg:h-9 border border-1 rounded-full p-2" viewBox="0 0 24 24"><path d="M8.833 15.006H5.44l-.068-.023c-1.56-.138-2.867-.987-2.867-2.73 0-.275.046-.527.092-.78C2.23 11.038 2 10.487 2 9.753c0-.963.39-1.52 1.032-1.978-.023-.183-.023-.252-.023-.39 0-.963.39-1.784 1.009-2.243-.023-.206-.023-.275-.023-.39 0-1.743 1.33-2.591 2.89-2.73L11.79 2c2.04 0 3.05.252 4.563.895.917.39 1.353.527 2.27.619L20 3.629v8.234l-2.476 1.445-2.27 4.427c0 .046-.085 1.552-.253 4.52l-.871.389c-.092.069-.275.138-.505.184-.664.206-1.398.252-2.132 0-1.261-.436-2.064-1.537-2.408-3.258a19.743 19.743 0 0 1-.26-2.564l.008-2zm4.42 2.246l2.758-5.376L18 10.715v-5.26c-.845-.113-1.44-.3-2.427-.72C14.203 4.156 13.453 4 11.8 4l-4.816.023c-.742.078-.895.3-1.015.542-.201.4-.201.876 0 1.425-.558.184-.917.479-1.078.883-.182.457-.182.966 0 1.528-.601.228-.901.64-.901 1.238s.202 1.038.608 1.32c-.23.46-.26.892-.094 1.294.168.404.298.627 1.043.738l.172.015h5.207l-.095 2.09c-.066 1.448.009 2.875.216 4.082.216 1.084.582 1.58 1.096 1.758.259.09.546.086.876-.014.003-.06.081-1.283.235-3.67z" fill="currentColor"></path></svg>
+                    </div>
+                    <div>
+                      <svg class="sm:w-9 sm:h-9 md:w-7 md:h-7 lg:w-9 lg:h-9 border border-1 rounded-full p-2" viewBox="0 0 24 24"><path fill="currentColor" d="M5.689 7.924L4.387 9.442 12.038 16l7.651-6.558-1.302-1.518-6.349 5.442z"></path></svg>
+                    </div>
+                  </div>
+                  <!-- Episode Description -->
+                  <div class="flex justify-center items-center space-x-2 text-xs">
+                    <p class="font-semibold text-green-600">96% Match</p>
+                    <p class="border px-1 pb-1 border-gray-400">16+</p>
+                    <p class="text-xs">5 Seasons</p>
+                  </div>
+                  <div class="flex justify-center space-x-2 text-xs">
+                    <p>Violent</p>
+                    <p class="text-gray-600">•</p>
+                    <p>Dark</p>
+                    <p class="text-gray-600">•</p>
+                    <p>Suspenseful</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="pics">
+            <a href="#">
+              <img class="rounded" src="./assets/images/movies/MyList/3.PNG" alt="undifined">
+            </a>
+          </div>
+          <div class="pics">
+            <a href="#">
+              <img class="rounded" src="./assets/images/movies/MyList/4.PNG" alt="undifined">
+            </a>
+          </div>
+          <div class="pics">
+            <a href="#">
+              <img class="rounded" src="./assets/images/movies/MyList/5.PNG" alt="undifined">
+            </a>
+          </div>
+          <div class="pics">
+            <a href="#">
+              <img class="rounded" src="./assets/images/movies/MyList/6.PNG" alt="undifined">
+            </a>
+          </div>
+          <div class="pics">
+            <a href="#">
+              <img class="rounded" src="./assets/images/movies/MyList/7.PNG" alt="undifined">
+            </a>
+          </div>
+          <div class="pics">
+            <a href="#">
+              <img class="rounded" src="./assets/images/movies/MyList/8.PNG" alt="undifined">
+            </a>
+          </div>
+          <div class="pics">
+
+            <a href="#">
+              <img class="rounded" src="./assets/images/movies/MyList/9.PNG" alt="undifined">
+            </a>
+          </div>
+          <div class="pics">
+            <a href="#">
+              <img class="rounded" src="./assets/images/movies/MyList/10.PNG" alt="undifined">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- right arrow -->
+      <div class="right-arrow absolute right-0 rightArrow1" onClick="rightScroll('.scroll1','.rightArrow1')">
+        <button class="p-4 h-32 outline-none hover:bg-gray-900 hover:bg-opacity-50 outline-none focus:outline-none"><i class="fas fa-angle-right"></i></button>
+      </div>
+
+    </div>
+  </div>
+
+<!-- TV Shows -->
+  <div class="pl-12 py-9">
+    <p class="font-semibold">TV Show</p>
+
+  <div class="flex items-center relative">
+    <div style="z-index: 10;" class="left-arrow absolute left-0">
+      <button class="p-4 h-32 outline-none hover:bg-gray-900 hover:bg-opacity-50 outline-none focus:outline-none leftArrow2" onClick="leftScroll('.scroll2','.leftArrow2')"><i class="fas fa-angle-left"></i></button>
+    </div>
+
+    <div class="container-carousel scroll2">
+      <div class="carousel grid gap-2">
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/images/friends.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/images/its-ok.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/images/last-kingdom.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/images/lucifer.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/images/outlander.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/images/the-crown.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/images/walking-dead.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/images/annie.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+
+          <a href="#">
+            <img class="rounded" src="./assets/images/classroom.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/images/the-witcher.png" alt="undifined">
+          </a>
+        </div>
       </div>
     </div>
-    <div class="row-3">
-      <a href="#"> </a>
+    <!-- right arrow -->
+    <div class="right-arrow absolute right-0">
+      <button class="p-4 h-32 outline-none hover:bg-gray-900 hover:bg-opacity-50 outline-none focus:outline-none rightArrow2" onClick="rightScroll('.scroll2','.rightArrow2')"><i class="fas fa-angle-right"></i></button>
     </div>
+
   </div>
 </div>
 
-    
-    <!-- Box Start -->
-<div class="box">
-  <img src="./images/movies/Popular/Popular (2).PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
+  <!-- Trending Now -->
+  <div class="pl-12 py-9">
+    <p class="font-semibold">Trending Now</p>
+
+  <div class="flex items-center relative">
+    <div style="z-index: 10;" class="left-arrow absolute left-0">
+      <button class="p-4 h-32 outline-none hover:bg-gray-900 hover:bg-opacity-50 outline-none focus:outline-none leftArrow3" onClick="leftScroll('.scroll3','.leftArrow3')"><i class="fas fa-angle-left"></i></button>
+    </div>
+
+    <div class="container-carousel scroll3">
+      <div class="carousel grid gap-2">
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/img/ava.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/img/brainonfire.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/img/matrix.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/img/salt.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/img/larevolution.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/img/shadowhunters.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/img/therain.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/img/yesman.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+
+          <a href="#">
+            <img class="rounded" src="./assets/img/vforvendetta.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/img/theshining.png" alt="undifined">
+          </a>
+        </div>
       </div>
     </div>
-    <div class="row-3">
-      <a href="#"> </a>
+    <!-- right arrow -->
+    <div class="right-arrow absolute right-0">
+      <button class="p-4 h-32 outline-none hover:bg-gray-900 hover:bg-opacity-50 outline-none focus:outline-none rightArrow3" onClick="rightScroll('.scroll3','.rightArrow3')"><i class="fas fa-angle-right"></i></button>
     </div>
+
   </div>
 </div>
 
-<!-- Box End -->
+  <!-- Netflix Originals -->
+  <div class="pl-12 py-4">
+    <p class="font-semibold">Netflix Originals</p>
 
-<!-- Box Start -->
-<div class="box">
-  <img src="./images/movies/Popular/Popular (3).PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
+  <div class="flex items-center relative">
+    <div style="z-index: 10;" class="left-arrow absolute left-0">
+      <button class="p-4 h-32 outline-none hover:bg-gray-900 hover:bg-opacity-50 outline-none focus:outline-none leftArrow4" onClick="leftScroll('.scroll4','.leftArrow4')"><i class="fas fa-angle-left"></i></button>
+    </div>
+
+    <div class="container-carousel scroll4">
+      <div class="carousel grid grid-cols-4 gap-2">
+        <div class="pics">
+          <div class="transform hover:scale-125 transition duration-500 ease-in-out w-full rounded">
+            <a href="#">
+              <img class="rounded" src="./assets/img/ironfist.png" alt="undifined">
+            </a>
+          </div>
+        </div>
+
+        <div class="pics">
+          <div class="transform hover:scale-125 transition duration-500 ease-in-out w-full rounded">
+            <a href="#">
+              <img class="rounded" src="./assets/img/jessicajones.png" alt="undifined">
+            </a>
+          </div>
+        </div>
+
+        <div class="pics">
+          <div class="transform hover:scale-125 transition duration-500 ease-in-out w-full rounded">
+            <a href="#">
+              <img class="rounded" src="./assets/img/n_13reasonswhy.png" alt="undifined">
+            </a>
+          </div>
+        </div>
+
+        <div class="pics">
+          <div class="transform hover:scale-125 transition duration-500 ease-in-out w-full rounded">
+            <a href="#">
+              <img class="rounded" src="./assets/img/n_3_.png" alt="undifined">
+            </a>
+          </div>
+        </div>
+
+        <div class="pics">
+          <div class="transform hover:scale-125 transition duration-500 ease-in-out w-full rounded">
+            <a href="#">
+              <img class="rounded" src="./assets/img/n_aliceinborderland.png" alt="undifined">
+            </a>
+          </div>
+        </div>
+
+        <div class="pics">
+          <div class="transform hover:scale-125 transition duration-500 ease-in-out w-full rounded">
+            <a href="#">
+              <img class="rounded" src="./assets/img/n_annewithane.png" alt="undifined">
+            </a>
+          </div>
+        </div>
+
+        <div class="pics">
+          <div class="transform hover:scale-125 transition duration-500 ease-in-out w-full rounded">
+            <a href="#">
+              <img class="rounded" src="./assets/img/n_barbarians.png" alt="undifined">
+            </a>
+          </div>
+        </div>
+
+        <div class="pics">
+          <div class="transform hover:scale-125 transition duration-500 ease-in-out w-full rounded">
+            <a href="#">
+              <img class="rounded" src="./assets/img/n_beastars.png" alt="undifined">
+            </a>
+          </div>
+        </div>
+
+        <div class="pics">
+          <div class="transform hover:scale-125 transition duration-500 ease-in-out w-full rounded">
+            <a href="#">
+              <img class="rounded" src="./assets/img/n_blackmirror.png" alt="undifined">
+            </a>
+          </div>
+        </div>
+
+        <div class="pics">
+          <div class="transform hover:scale-125 transition duration-500 ease-in-out w-full rounded">
+            <a href="#">
+              <img class="rounded" src="./assets/img/n_blacksummer.png" alt="undifined">
+            </a>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="row-3">
-      <a href="#"> </a>
+    <!-- right arrow -->
+    <div class="right-arrow absolute right-0">
+      <button class="p-4 h-32 outline-none hover:bg-gray-900 hover:bg-opacity-50 outline-none focus:outline-none rightArrow4" onClick="rightScroll('.scroll4','.rightArrow4')"><i class="fas fa-angle-right"></i></button>
     </div>
+
   </div>
 </div>
-<!-- Box End -->
 
+  <!-- TV Shows by Genre -->
+  <div class="px-12 py-4">
+    <p class="py-2 font-semibold">TV Shows by Genre</p>
+    <div class="grid gap-2 grid-cols-2 sm:grid-cols-2 md:grid-cols-6 lg:grid-cols-7">
 
-    <!-- Box Start -->
-<div class="box">
-  <img src="./images/movies/Popular/Popular (4).PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
+      <div class="w-full overflow-hidden relative bg-gradient-to-r from-green-900 to-green-100 rounded">
+        <a class="absolute top-1/4 left-3 no-underline text-white font-bold lg:text-xl md:text-base z-10" href="#">Action</a>
+        <img class="rounded opacity-30 transform hover:scale-125 transition duration-500 ease-in-out" src="./assets/img/action.png" alt="Action">
+      </div>
+
+        <div class="w-full overflow-hidden relative bg-gradient-to-r from-red-900 to-red-100 rounded">
+          <a class="absolute top-1/4 left-3 no-underline text-white font-bold lg:text-xl md:text-base z-10" href="#">Anime</a>
+          <img class="rounded opacity-30 transform hover:scale-125 transition duration-500 ease-in-out" src="./assets/img/anime.png" alt="Action">
+        </div>
+
+        <div class="w-full overflow-hidden relative bg-gradient-to-r from-yellow-900 to-yellow-100 rounded">
+          <a class="absolute top-1/4 left-3 no-underline text-white font-bold lg:text-lg md:text-sm z-10" href="#">Children</a>
+          <img class="rounded opacity-30 transform hover:scale-125 transition duration-500 ease-in-out" src="./assets/img/children.png" alt="Action">
+        </div>
+
+        <div class="w-full overflow-hidden relative bg-gradient-to-r from-pink-900 to-pink-100 rounded">
+          <a class="absolute top-1/4 left-3 no-underline text-white font-bold lg:text-xl md:text-base z-10" href="#">Comedy</a>
+          <img class="rounded opacity-30 transform hover:scale-125 transition duration-500 ease-in-out" src="./assets/img/comedy.png" alt="Action">
+        </div>
+
+        <div class="w-full overflow-hidden relative bg-gradient-to-r from-indigo-900 to-indigo-100 rounded">
+          <a class="absolute top-1/4 left-3 no-underline text-white font-bold lg:text-xl md:text-base z-10" href="#">Docuseries</a>
+          <img class="rounded opacity-30 transform hover:scale-125 transition duration-500 ease-in-out" src="./assets/img/docuseries.png" alt="Action">
+        </div>
+
+        <div class="w-full overflow-hidden relative bg-gradient-to-r from-green-500 to-green-100 rounded">
+          <a class="absolute top-1/4 left-3 no-underline text-white font-bold lg:text-xl md:text-base z-10" href="#">Drama</a>
+          <img class="rounded opacity-30 transform hover:scale-125 transition duration-500 ease-in-out" src="./assets/img/drama.png" alt="Action">
+        </div>
+
+        <div class="w-full overflow-hidden relative bg-gradient-to-r from-pink-500 to-pink-100 rounded">
+          <a class="absolute top-1/4 left-3 no-underline text-white font-bold lg:text-xl md:text-base z-10" href="#">French</a>
+          <img class="rounded opacity-30 transform hover:scale-125 transition duration-500 ease-in-out" src="./assets/img/fantasy.png" alt="Action">
+        </div>
+
+        <div class="w-full overflow-hidden relative bg-gradient-to-r from-blue-500 to-blue-100 rounded">
+          <a class="absolute top-1/4 left-3 no-underline text-white font-bold lg:text-xl md:text-base z-10" href="#">French</a>
+          <img class="rounded opacity-30 transform hover:scale-125 transition duration-500 ease-in-out" src="./assets/img/french.png" alt="Action">
+        </div>
+
+        <div class="w-full overflow-hidden relative bg-gradient-to-r from-purple-600 to-purple-100 rounded">
+          <a class="absolute top-1/4 left-3 no-underline text-white font-bold lg:text-xl md:text-base z-10" href="#">Horror</a>
+          <img class="rounded opacity-30 transform hover:scale-125 transition duration-500 ease-in-out" src="./assets/img/horror.png" alt="Action">
+        </div>
+
+        <div class="w-full overflow-hidden relative bg-gradient-to-r from-red-600 to-red-100 rounded">
+          <a class="absolute top-1/4 left-3 no-underline text-white font-bold lg:text-xl md:text-base z-10" href="#">International</a>
+          <img class="rounded opacity-30 transform hover:scale-125 transition duration-500 ease-in-out" src="./assets/img/international.png" alt="Action">
+        </div>
+
+        <div class="w-full overflow-hidden relative bg-gradient-to-r from-indigo-700 to-indigo-100 rounded">
+          <a class="absolute top-1/4 left-3 no-underline text-white font-bold lg:text-xl md:text-base z-10" href="#">Reality</a>
+          <img class="rounded opacity-30 transform hover:scale-125 transition duration-500 ease-in-out" src="./assets/img/reality.png" alt="Action">
+        </div>
+
+        <div class="w-full overflow-hidden relative bg-gradient-to-r from-yellow-500 to-yellow-100 rounded">
+          <a class="absolute top-1/4 left-3 no-underline text-white font-bold lg:text-xl md:text-base z-10" href="#">Romance</a>
+          <img class="rounded opacity-30 transform hover:scale-125 transition duration-500 ease-in-out" src="./assets/img/romance.png" alt="Action">
+        </div>
+
+        <div class="w-full overflow-hidden relative bg-gradient-to-r from-pink-400 to-pink-100 rounded">
+          <a class="absolute top-1/4 left-3 no-underline text-white font-bold lg:text-xl md:text-base z-10" href="#">Sci-fi</a>
+          <img class="rounded opacity-30 transform hover:scale-125 transition duration-500 ease-in-out" src="./assets/img/sci-fi.png" alt="Action">
+        </div>
+
+        <div class="w-full overflow-hidden relative bg-gradient-to-r from-purple-500 to-purple-50 rounded">
+          <a class="absolute top-1/4 left-3 no-underline text-white font-bold lg:text-xl md:text-base z-10" href="#">Thriller</a>
+          <img class="rounded opacity-30 transform hover:scale-125 transition duration-500 ease-in-out" src="./assets/img/thriller.png" alt="Action">
+        </div>
+    </div>
+  </div>
+
+  <!-- Japanese Anime -->
+  <div class="pl-12 py-9">
+    <p class="font-semibold">Japanese Anime</p>
+
+  <div class="flex items-center relative">
+    <div style="z-index: 10;" class="left-arrow absolute left-0">
+      <button class="p-4 h-32 outline-none hover:bg-gray-900 hover:bg-opacity-50 outline-none focus:outline-none leftArrow5" onClick="leftScroll('.scroll5','.leftArrow5')"><i class="fas fa-angle-left"></i></button>
+    </div>
+
+    <div class="container-carousel scroll5">
+      <div class="carousel grid gap-2">
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/img/myheroacademia.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/img/myneighbortotoro.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/img/samuraichamploo.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/img/shigurui.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/img/spiritedaway.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/img/steinsgate.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/img/tokyoghoul.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/img/yourname.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+
+          <a href="#">
+            <img class="rounded" src="./images/classroom.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/img/attackontitan.png" alt="undifined">
+          </a>
+        </div>
       </div>
     </div>
-    <div class="row-3">
-      <a href="#"> </a>
+    <!-- right arrow -->
+    <div class="right-arrow absolute right-0">
+      <button class="p-4 h-32 outline-none hover:bg-gray-900 hover:bg-opacity-50 outline-none focus:outline-none rightArrow5" onClick="rightScroll('.scroll5','.rightArrow5')"><i class="fas fa-angle-right"></i></button>
+    </div>
+
     </div>
   </div>
-</div>
-<!-- Box End -->
 
-<!-- Box Start -->
-<div class="box">
-  <img src="./images/movies/Popular/Popular (5).PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
+<!-- Top Picks for You -->
+<div class="pl-12 py-9">
+  <p class="font-semibold">Top Picks for You</p>
+
+<div class="flex items-center relative">
+  <div style="z-index: 10;" class="left-arrow absolute left-0">
+    <button class="p-4 h-32 outline-none hover:bg-gray-900 hover:bg-opacity-50 outline-none focus:outline-none leftArrow6" onClick="leftScroll('.scroll6','.leftArrow6')"><i class="fas fa-angle-left"></i></button>
+  </div>
+
+  <div class="container-carousel scroll6">
+    <div class="carousel grid gap-2">
+      <div class="pics">
+        <a href="#">
+          <img class="rounded" src="./assets/img/theking.png" alt="undifined">
+        </a>
+      </div>
+      <div class="pics">
+        <a href="#">
+          <img class="rounded" src="./assets/img/spiderman2.png" alt="undifined">
+        </a>
+      </div>
+      <div class="pics">
+        <a href="#">
+          <img class="rounded" src="./assets/img/startup.png" alt="undifined">
+        </a>
+      </div>
+      <div class="pics">
+        <a href="#">
+          <img class="rounded" src="./assets/img/lostinspace.png" alt="undifined">
+        </a>
+      </div>
+      <div class="pics">
+        <a href="#">
+          <img class="rounded" src="./assets/img/homeland.png" alt="undifined">
+        </a>
+      </div>
+      <div class="pics">
+        <a href="#">
+          <img class="rounded" src="./assets/img/cursed.png" alt="undifined">
+        </a>
+      </div>
+      <div class="pics">
+        <a href="#">
+          <img class="rounded" src="./assets/img/berserk.png" alt="undifined">
+        </a>
+      </div>
+      <div class="pics">
+        <a href="#">
+          <img class="rounded" src="./assets/img/sonsofanarchy.png" alt="undifined">
+        </a>
+      </div>
+      <div class="pics">
+
+        <a href="#">
+          <img class="rounded" src="./assets/img/winteronfire.png" alt="undifined">
+        </a>
+      </div>
+      <div class="pics">
+        <a href="#">
+          <img class="rounded" src="./assets/img/thetaleoftheprincesskaguya.png" alt="undifined">
+        </a>
       </div>
     </div>
-    <div class="row-3">
-      <a href="#"> </a>
-    </div>
+  </div>
+  <!-- right arrow -->
+  <div class="right-arrow absolute right-0">
+    <button class="p-4 h-32 outline-none hover:bg-gray-900 hover:bg-opacity-50 outline-none focus:outline-none rightArrow6" onClick="rightScroll('.scroll6','.rightArrow6')"><i class="fas fa-angle-right"></i></button>
+  </div>
   </div>
 </div>
-<!-- Box End -->
 
+<!-- Watch it Again -->
+<div class="pl-12 py-9">
+  <p class="font-semibold">Watch it Again</p>
 
-    <!-- Box Start -->
-<div class="box">
-  <img src="./images/movies/Popular/Popular (6).PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
+<div class="flex items-center relative">
+  <div style="z-index: 10;" class="left-arrow absolute left-0">
+    <button class="p-4 h-32 outline-none hover:bg-gray-900 hover:bg-opacity-50 outline-none focus:outline-none leftArrow7" onClick="leftScroll('.scroll7','.leftArrow7')"><i class="fas fa-angle-left"></i></button>
+  </div>
+
+  <div class="container-carousel scroll7">
+    <div class="carousel grid gap-2">
+      <div class="pics">
+        <a href="#">
+          <img class="rounded" src="./assets/img/thetourist.png" alt="undifined">
+        </a>
+      </div>
+      <div class="pics">
+        <a href="#">
+          <img class="rounded" src="./assets/img/theoa.png" alt="undifined">
+        </a>
+      </div>
+      <div class="pics">
+        <a href="#">
+          <img class="rounded" src="./assets/img/samuraigourmet.png" alt="undifined">
+        </a>
+      </div>
+      <div class="pics">
+        <a href="#">
+          <img class="rounded" src="./assets/img/reign.png" alt="undifined">
+        </a>
+      </div>
+      <div class="pics">
+        <a href="#">
+          <img class="rounded" src="./assets/img/orphanblack.png" alt="undifined">
+        </a>
+      </div>
+      <div class="pics">
+        <a href="#">
+          <img class="rounded" src="./assets/img/naruto.png" alt="undifined">
+        </a>
+      </div>
+      <div class="pics">
+        <a href="#">
+          <img class="rounded" src="./assets/img/castlevania.png" alt="undifined">
+        </a>
+      </div>
+      <div class="pics">
+        <a href="#">
+          <img class="rounded" src="./assets/img/ajin.png" alt="undifined">
+        </a>
+      </div>
+      <div class="pics">
+
+        <a href="#">
+          <img class="rounded" src="./assets/img/kakegurui.png" alt="undifined">
+        </a>
+      </div>
+      <div class="pics">
+        <a href="#">
+          <img class="rounded" src="./assets/img/ponyo.png" alt="undifined">
+        </a>
       </div>
     </div>
-    <div class="row-3">
-      <a href="#"> </a>
-    </div>
+  </div>
+  <!-- right arrow -->
+  <div class="right-arrow absolute right-0">
+    <button class="p-4 h-32 outline-none hover:bg-gray-900 hover:bg-opacity-50 outline-none focus:outline-none rightArrow7" onClick="rightScroll('.scroll7','.rightArrow7')"><i class="fas fa-angle-right"></i></button>
+  </div>
+
   </div>
 </div>
-<!-- Box End -->
 
-<!-- Box Start -->
-<div class="box">
-  <img src="./images/movies/Popular/Popular (7).PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
+<!-- Top  10 in France Today -->
+<div class="pl-12 py-9">
+  <p class="font-semibold">Top 10 in France Today</p>
+
+<div class="flex items-center relative">
+  <div style="z-index: 10;" class="left-arrow absolute left-0">
+    <button class="p-4 h-32 outline-none hover:bg-gray-900 hover:bg-opacity-50 outline-none focus:outline-none leftArrow8" onClick="leftScroll('.scroll8','.leftArrow8')"><i class="fas fa-angle-left"></i></button>
+  </div>
+
+  <div class="container-carousel scroll8">
+    <div class="carousel grid gap-2 grid-cols-4">
+      <div class="pics relative">
+        <a href="#">
+          <svg id="rank-1" class="absolute left-0 top-0 bottom-0 w-2/4" viewBox="-20 0 70 154" width="100%" height="100%">
+            <path stroke="#595959" stroke-width="4" d="M35.3768546,152 L72,152 L72,2.53765761 L2,19.3621723 L2,49.7031179 L35.3768546,41.2439629 L35.3768546,152 Z" stroke-linejoin="square"></path>
+          </svg>
+          <img class="rounded w-2/4 ml-auto" src="./assets/images/movies/Top10/1.PNG" alt="undifined">
+        </a>
+      </div>
+      <div class="pics relative">
+        <a href="#">
+          <svg id="rank-2" class="absolute left-0 top-0 bottom-0 w-2/4" viewBox="0 0 80 154" width="100%" height="100%">
+              <path stroke="#595959" stroke-width="4" d="M3.71962617,152 L113,152 L113,121.825843 L50.4844717,121.825843 L54.839038,118.275715 L84.2920208,94.2637235 C89.3795156,90.1399373 94.0402308,85.805476 98.2750133,81.2602394 C102.434328,76.796003 105.756249,71.9213605 108.246552,66.6313093 C110.695961,61.4281262 111.925234,55.5183519 111.925234,48.8820225 C111.925234,39.4542826 109.631416,31.2553428 105.049555,24.2365257 C100.453019,17.1952271 94.1085233,11.742935 85.9792809,7.86095975 C77.8037249,3.95686825 68.4966826,2 58.0373832,2 C47.5910414,2 38.3690168,4.02334203 30.3474738,8.05909511 C22.3318754,12.0918574 15.8900692,17.6378936 10.9952657,24.7136643 C6.5032786,31.2071367 3.60632064,38.5172162 2.30154382,46.6657205 L36.3572487,46.6657303 C37.5926743,43.1463939 39.7549135,40.1454308 42.815641,37.6955965 C46.3553833,34.8623544 51.0931115,33.4719101 56.9626168,33.4719101 C62.8931333,33.4719101 67.5151959,35.0087133 70.7225988,38.1533405 C73.9040847,41.2725581 75.5140187,45.1770811 75.5140187,49.747191 C75.5140187,53.8980504 74.3540224,57.681458 72.0462787,61.0445252 C69.8539253,64.2394343 66.0587912,68.1694332 60.6407465,72.8844961 L3.71962617,122.466411 L3.71962617,152 Z" stroke-linejoin="square"></path>
+          </svg>
+          <img class="rounded w-2/4 ml-auto" src="./assets/images/movies/Top10/2.PNG" alt="undifined">
+        </a>
+      </div>
+      <div class="pics relative">
+        <a href="#">
+          <svg id="rank-3" class="absolute left-0 top-0 bottom-0 w-2/4" viewBox="0 0 80 154" width="100%" height="100%">
+            <path stroke="#595959" stroke-width="4" d="M3.80882206,41.5769231 L37.0515061,41.5769231 C38.3517545,38.8746012 40.596863,36.6304279 43.7263895,34.8562867 C47.2803012,32.8415598 51.5554462,31.8461538 56.5236364,31.8461538 C62.0793836,31.8461538 66.6639688,32.9574015 70.2470584,35.2230465 C74.0855721,37.6502004 76.0290909,41.5064608 76.0290909,46.5384615 C76.0290909,51.0910005 74.1755177,54.9331497 70.5561046,57.9179921 C67.0085429,60.8435804 62.3753187,62.2884615 56.7345455,62.2884615 L41.44,62.2884615 L41.44,90.6538462 L58.2109091,90.6538462 C63.7817365,90.6538462 68.4848473,91.8810709 72.2776806,94.3654147 C76.2972058,96.998244 78.3490909,100.94626 78.3490909,105.980769 C78.3490909,111.686239 76.4064369,115.956248 72.4962035,118.543035 C68.8382092,120.962954 64.2037189,122.153846 58.6327273,122.153846 C53.4279294,122.153846 48.8132219,121.213099 44.8064998,119.317495 C41.1082533,117.567834 38.4855585,115.045145 37.020696,111.788462 L2.32955254,111.788462 C4.42638081,123.876999 10.0911608,133.438882 19.3577843,140.568737 C29.2417774,148.173605 42.5943157,152 59.4763636,152 C70.1821774,152 79.6506285,150.217225 87.895614,146.663352 C96.0808203,143.135246 102.470757,138.1767 107.103765,131.778885 C111.699318,125.432794 114,117.841297 114,108.942308 C114,101.989991 112.069829,95.4478798 108.190354,89.2758666 C104.375056,83.2059551 98.5093901,78.9092584 90.507307,76.3677038 L85.0464375,74.6332682 L90.4004403,72.5926759 C97.0585205,70.0550555 102.066667,66.2546907 105.482826,61.1810519 C108.914299,56.0846696 110.625455,50.3747984 110.625455,44 C110.625455,35.5289649 108.363236,28.2215491 103.838408,22.0147147 C99.2644272,15.7404564 93.1388421,10.8456193 85.4297592,7.31870223 C77.6830773,3.77458354 69.1087589,2 59.6872727,2 C44.0840361,2 31.5154566,5.81589607 21.9099369,13.4146886 C12.9108379,20.5337501 6.88473271,29.9006747 3.80882206,41.5769231 Z" stroke-linejoin="square"></path>
+        </svg>
+          <img class="rounded w-2/4 ml-auto" src="./assets/images/movies/Top10/3.PNG" alt="undifined">
+        </a>
+      </div>
+      <div class="pics relative">
+        <a href="#">
+          <svg id="rank-4" class="absolute left-0 top-0 bottom-0 w-2/4" viewBox="0 0 81 154" width="100%" height="100%">
+            <path stroke="#595959" stroke-width="4" d="M72,152 L107.333333,152 L107.333333,121.022989 L128,121.022989 L128,92.4971264 L107.333333,92.4971264 L107.333333,2 L69.8901556,2 L2,92.7115182 L2,121.022989 L72,121.022989 L72,152 Z M36.2019688,92.1878453 L72.1315789,44.189673 L72.1315789,92.1878453 L36.2019688,92.1878453 Z" stroke-linejoin="square"></path>
+            </svg>
+          <img class="rounded w-2/4 ml-auto" src="./assets/images/movies/Top10/4.PNG" alt="undifined">
+        </a>
+      </div>
+      <div class="pics relative">
+        <a href="#">
+          <svg id="rank-5" class="absolute left-0 top-0 bottom-0 w-2/4" viewBox="0 0 81 154" width="100%" height="100%">
+              <path stroke="#595959" stroke-width="4" d="M105.588235,32.1741573 L105.588235,2 L13.5341512,2 L5.23346137,90.3567416 L37.6974221,90.3567416 C39.8423634,87.9945599 42.5633685,86.1026486 45.8404943,84.6818815 C49.4251171,83.1278019 53.3831573,82.3539326 57.6985294,82.3539326 C63.9461666,82.3539326 69.1167687,84.0989833 73.1169188,87.6090599 C77.1783818,91.1729376 79.2205882,95.978777 79.2205882,101.873596 C79.2205882,107.914983 77.1770505,112.764709 73.0997273,116.26119 C69.1009578,119.690308 63.937755,121.393258 57.6985294,121.393258 C53.4004064,121.393258 49.5296219,120.698508 46.0975297,119.298481 C42.9870514,118.029647 40.5213861,116.352289 38.7303477,114.255618 L2.59164274,114.255618 C5.89986424,125.848885 12.3741772,134.878877 22.0519735,141.420254 C32.4724245,148.463604 45.6402245,152 61.6029412,152 C71.7212682,152 80.8962731,150.009613 89.150474,146.033804 C97.3481348,142.085229 103.861138,136.316269 108.722159,128.699343 C113.566267,121.108918 116,111.748478 116,100.575843 C116,91.3942122 113.987122,83.2618815 109.968062,76.1449748 C105.948525,69.0272223 100.453725,63.4447397 93.4584195,59.3700459 C86.4675635,55.2979443 78.6089657,53.261236 69.8455882,53.261236 C58.786395,53.261236 49.7471332,56.7437015 42.6116093,63.7220125 L38.7199998,67.5278803 L41.9927694,32.1741573 L105.588235,32.1741573 Z" stroke-linejoin="square"></path>
+              </svg>
+          <img class="rounded w-2/4 ml-auto" src="./assets/images/movies/Top10/5.PNG" alt="undifined">
+        </a>
+      </div>
+      <div class="pics relative">
+        <a href="#">
+          <svg id="rank-6" class="absolute left-0 top-0 bottom-0 w-2/4" viewBox="0 0 81 154" width="100%" height="100%">
+            <path stroke="#595959" stroke-width="4" d="M79.4818812,38.1923077 L115.033301,38.1923077 C111.749021,27.2465475 106.069812,18.6188874 97.9854392,12.2541237 C89.3233245,5.4345086 77.5311253,2 62.5441696,2 C50.7574139,2 40.3504286,4.8597556 31.2782856,10.5766748 C22.2136435,16.2888673 15.0801345,24.6664083 9.8664516,35.7548512 C4.62956893,46.8926352 2,60.425245 2,76.3653846 C2,90.780675 4.35590519,103.709082 9.05862071,115.163484 C13.7255523,126.530727 20.6318333,135.502394 29.7929258,142.119053 C38.9042225,148.699746 50.2253375,152 63.8162544,152 C70.6650534,152 77.302793,150.907572 83.7383942,148.721644 C90.1464523,146.545072 95.9352915,143.283414 101.116249,138.930292 C106.269729,134.600255 110.371484,129.290084 113.430132,122.983061 C116.472342,116.709933 118,109.427498 118,101.115385 C118,92.3027337 115.938328,84.4792137 111.818117,77.6051375 C107.684009,70.7078755 102.174938,65.3123315 95.26749,61.3933792 C88.3630693,57.4761445 80.7883391,55.5192308 72.5088339,55.5192308 C57.9616172,55.5192308 47.1671496,60.0681559 39.9394182,69.1493234 L35.9360238,74.1793242 L36.3793189,67.7659347 C37.2527065,55.1301639 39.9385541,45.9159863 44.5467545,40.1121284 C49.2370196,34.204913 55.4320427,31.2115385 62.9681979,31.2115385 C67.2287179,31.2115385 70.7941922,31.9462343 73.652726,33.4515201 C76.0982063,34.7392946 78.0488724,36.3185428 79.4818812,38.1923077 Z M62.6054054,123 C56.7795005,123 51.7032171,121.106493 47.4689421,117.344581 C43.1731726,113.528035 41,108.602678 41,102.710227 C41,96.8286965 43.1638139,91.8460839 47.439446,87.8923814 C51.6754127,83.9753577 56.7634547,82 62.6054054,82 C68.4522832,82 73.511145,83.9791368 77.6793421,87.9048705 C81.8776909,91.859002 84,96.8365423 84,102.710227 C84,108.594809 81.8685262,113.515118 77.6500438,117.332405 C73.4832613,121.102908 68.4361895,123 62.6054054,123 Z" stroke-linejoin="square"></path>
+          </svg>
+          <img class="rounded w-2/4 ml-auto" src="./assets/images/movies/Top10/6.PNG" alt="undifined">
+        </a>
+      </div>
+      <div class="pics relative">
+        <a href="#">
+          <svg id="rank-7" class="absolute left-0 top-0 bottom-0 w-2/4" viewBox="0 0 78 154" width="100%" height="100%">
+              <path stroke="#595959" stroke-width="4" d="M113,2 L2,2 L2,33.4022989 L75.9665929,33.4022989 L21.22571,152 L60.28102,152 L113,32.7672283 L113,2 Z" stroke-linejoin="square"></path>
+            </svg>
+          <img class="rounded w-2/4 ml-auto" src="./assets/images/movies/Top10/7.PNG" alt="undifined">
+        </a>
+      </div>
+      <div class="pics relative">
+        <a href="#">
+          <svg id="rank-8" class="absolute left-0 top-0 bottom-0 w-2/4" viewBox="0 0 77 154" width="100%" height="100%">
+            <path stroke="#595959" stroke-width="4" d="M59.5,152 C70.8354242,152 80.8578612,150.279602 89.5766694,146.850328 C98.2139763,143.453111 104.938225,138.59204 109.790038,132.263872 C114.594739,125.99715 117,118.387875 117,109.365385 C117,102.039137 114.73856,95.2946194 110.186793,89.0754454 C105.638797,82.8614224 99.3503987,78.4170287 91.2648936,75.7244736 L85.8649765,73.9262465 L91.2027608,71.9512063 C98.441218,69.2728956 103.774637,65.2684361 107.269083,59.9330469 C110.798269,54.544614 112.553381,48.7550538 112.553381,42.5192308 C112.553381,34.6072878 110.419943,27.6803381 106.148201,21.6790251 C101.847464,15.6369783 95.745448,10.8544031 87.8031496,7.32791533 C79.8157938,3.78142152 70.385671,2 59.5,2 C48.614329,2 39.1842062,3.78142152 31.1968504,7.32791533 C23.254552,10.8544031 17.152536,15.6369783 12.8517993,21.6790251 C8.58005696,27.6803381 6.44661922,34.6072878 6.44661922,42.5192308 C6.44661922,48.7550538 8.20173067,54.544614 11.7309174,59.9330469 C15.2253627,65.2684361 20.558782,69.2728956 27.7972392,71.9512063 L33.1350235,73.9262465 L27.7351064,75.7244736 C19.6496013,78.4170287 13.361203,82.8614224 8.8132065,89.0754454 C4.26143999,95.2946194 2,102.039137 2,109.365385 C2,118.387875 4.40526122,125.99715 9.20996232,132.263872 C14.0617745,138.59204 20.7860237,143.453111 29.4233306,146.850328 C38.1421388,150.279602 48.1645758,152 59.5,152 Z M60,63 C54.4000491,63 49.666017,61.4848712 45.875295,58.4394363 C41.9847517,55.3138059 40,51.1843737 40,46.2112676 C40,40.9671806 41.9759346,36.6932777 45.875295,33.5605637 C49.666017,30.5151288 54.4000491,29 60,29 C65.5999509,29 70.333983,30.5151288 74.124705,33.5605637 C78.0240654,36.6932777 80,40.9671806 80,46.2112676 C80,51.1843737 78.0152483,55.3138059 74.124705,58.4394363 C70.333983,61.4848712 65.5999509,63 60,63 Z M59.5,125 C53.2453956,125 47.94445,123.38723 43.6644138,120.143651 C39.2537879,116.801106 37,112.327751 37,106.89404 C37,101.595922 39.2579914,97.195708 43.6644138,93.8563489 C47.94445,90.6127701 53.2453956,89 59.5,89 C65.7546044,89 71.05555,90.6127701 75.3355862,93.8563489 C79.7420086,97.195708 82,101.595922 82,106.89404 C82,112.327751 79.7462121,116.801106 75.3355862,120.143651 C71.05555,123.38723 65.7546044,125 59.5,125 Z" stroke-linejoin="square"></path>
+          </svg>
+          <img class="rounded w-2/4 ml-auto" src="./assets/images/movies/Top10/8.PNG" alt="undifined">
+        </a>
+      </div>
+      <div class="pics relative">
+        <a href="#">
+          <svg id="rank-9" class="absolute left-0 top-0 bottom-0 w-2/4" viewBox="0 0 71 154" width="100%" height="100%">
+              <path stroke="#595959" stroke-width="4" d="M40.0597376,115.807692 L4.47328474,115.807692 C7.45109332,126.586242 13.4362856,135.15497 22.4670906,141.582071 C32.2129251,148.518048 44.5640134,152 59.5759717,152 C78.2141671,152 92.5105725,145.697944 102.6454,133.074799 C112.853557,120.360322 118,101.543854 118,76.5769231 C118,62.1603327 115.678843,49.3016297 111.046669,37.9886125 C106.453069,26.7698049 99.6241767,17.9802976 90.5435117,11.5767831 C81.5017862,5.20072813 70.1375399,2 56.3957597,2 C49.4158116,2 42.68229,3.15952329 36.1849549,5.47966815 C29.7045526,7.79376647 23.8782903,11.1932931 18.6948526,15.6846002 C13.5316746,20.1583529 9.45923583,25.508367 6.46782377,31.7491046 C3.4928156,37.95562 2,45.0644366 2,53.0961538 C2,61.9117395 4.02797967,69.7019439 8.0788911,76.5056791 C12.1434539,83.3323424 17.5832537,88.6925139 24.4218542,92.6108203 C31.2518358,96.5241882 38.8590885,98.4807692 47.2791519,98.4807692 C55.0853554,98.4807692 61.6095996,97.3619306 66.8547126,95.1478231 C72.0569983,92.9517941 76.4513169,89.5970183 80.0605818,85.0622151 L84.0584687,80.039134 L83.6207883,86.4440446 C82.74746,99.2241219 80.0984349,108.438199 75.5533003,114.10687 C70.9310132,119.871766 64.7726909,122.788462 57.2438163,122.788462 C52.8691399,122.788462 49.1904302,122.100251 46.212535,120.692834 C43.5930338,119.454801 41.5307848,117.825945 40.0597376,115.807692 Z M57.5,31 C63.3657106,31 68.4419893,32.9364861 72.6299874,36.7826253 C76.8609583,40.6682294 79,45.6186068 79,51.5 C79,57.3813932 76.8609583,62.3317706 72.6299874,66.2173747 C68.4419893,70.0635139 63.3657106,72 57.5,72 C51.6342894,72 46.5580107,70.0635139 42.3700126,66.2173747 C38.1390417,62.3317706 36,57.3813932 36,51.5 C36,45.6186068 38.1390417,40.6682294 42.3700126,36.7826253 C46.5580107,32.9364861 51.6342894,31 57.5,31 Z" stroke-linejoin="square"></path>
+              </svg>
+          <img class="rounded w-2/4 ml-auto" src="./assets/images/movies/Top10/9.PNG" alt="undifined">
+        </a>
+      </div>
+      <div class="pics relative">
+        <a href="#">
+          <svg id="rank-10" class="absolute left-0 top-0 bottom-0 w-2/4" viewBox="0 0 140 154" width="100%" height="100%">
+              <path stroke="#595959" stroke-width="4" d="M34.7571266,151.549451 L70.6259977,151.549451 L70.6259977,2.97674475 L2,19.6868308 L2,49.8268266 L34.7571266,41.4161124 L34.7571266,151.549451 Z M140.287343,155 C152.681086,155 163.383651,151.880551 172.450173,145.647251 C181.542506,139.396206 188.560553,130.60008 193.515678,119.21621 C198.499544,107.766309 201,94.1979419 201,78.5 C201,62.8020581 198.499544,49.2336911 193.515678,37.78379 C188.560553,26.3999203 181.542506,17.603794 172.450173,11.3527486 C163.383651,5.11944949 152.681086,2 140.287343,2 C127.8936,2 117.191035,5.11944949 108.124514,11.3527486 C99.03218,17.603794 92.0141335,26.3999203 87.0590087,37.78379 C82.075142,49.2336911 79.5746864,62.8020581 79.5746864,78.5 C79.5746864,94.1979419 82.075142,107.766309 87.0590087,119.21621 C92.0141335,130.60008 99.03218,139.396206 108.124514,145.647251 C117.191035,151.880551 127.8936,155 140.287343,155 Z M140.287343,123.631868 C132.460337,123.631868 126.344812,119.484874 122.137185,111.453555 C118.08444,103.717872 116.09008,92.7411549 116.09008,78.5 C116.09008,64.2588451 118.08444,53.2821284 122.137185,45.5464447 C126.344812,37.5151261 132.460337,33.3681319 140.287343,33.3681319 C148.114349,33.3681319 154.229874,37.5151261 158.437502,45.5464447 C162.490246,53.2821284 164.484607,64.2588451 164.484607,78.5 C164.484607,92.7411549 162.490246,103.717872 158.437502,111.453555 C154.229874,119.484874 148.114349,123.631868 140.287343,123.631868 Z" stroke-linejoin="square"></path>
+              </svg>
+          <img class="rounded w-2/4 ml-auto" src="./assets/images/movies/Top10/10.PNG" alt="undifined">
+        </a>
       </div>
     </div>
-    <div class="row-3">
-      <a href="#"> </a>
-    </div>
   </div>
+  <!-- right arrow -->
+  <div class="right-arrow absolute right-0">
+    <button class="p-4 h-32 outline-none hover:bg-gray-900 hover:bg-opacity-50 outline-none focus:outline-none rightArrow8" onClick="rightScroll('.scroll8','.rightArrow8')"><i class="fas fa-angle-right"></i></button>
+  </div>
+
 </div>
-<!-- Box End -->
+</div>
 
+<!-- Action and Adventure -->
+<div class="pl-12 py-9">
+  <p class="font-semibold">Action & Adventure</p>
 
-    <!-- Box Start -->
-<div class="box">
-  <img src="./images/movies/Popular/Popular (8).PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
+  <!-- left arrow -->
+  <div class="flex items-center relative">
+    <div style="z-index: 10;" class="left-arrow absolute left-0 leftArrow9" onClick="leftScroll('.scroll9','.leftArrow9')">
+      <button class="p-4 h-32 outline-none hover:bg-gray-900 hover:bg-opacity-50 outline-none focus:outline-none"><i class="fas fa-angle-left"></i></button>
+    </div>
+
+    <div class="container-carousel scroll9">
+      <div class="carousel grid gap-2">
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/img/suicidesquad.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/img/prisonbreak.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/img/lostinspace.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/img/iamlegend.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/img/colony.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/img/cityhunter.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/img/arrow.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/img/22jumpstreet.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+
+          <a href="#">
+            <img class="rounded" src="./assets/img/knightfall.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/img/theprotector.png" alt="undifined">
+          </a>
+        </div>
       </div>
     </div>
-    <div class="row-3">
-      <a href="#"> </a>
+
+    <!-- right arrow -->
+    <div class="right-arrow absolute right-0 rightArrow9" onClick="rightScroll('.scroll9','.rightArrow9')">
+      <button class="p-4 h-32 outline-none hover:bg-gray-900 hover:bg-opacity-50 outline-none focus:outline-none"><i class="fas fa-angle-right"></i></button>
     </div>
+
   </div>
 </div>
-<!-- Box End -->
 
+<!-- Popular on Netflix -->
+<div class="pl-12 py-9">
+  <p class="font-semibold">Popular on Netflix</p>
 
-    <!-- Box Start -->
-<div class="box">
-  <img src="./images/movies/Popular/Popular (9).PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
+  <!-- left arrow -->
+  <div class="flex items-center relative">
+    <div style="z-index: 10;" class="left-arrow absolute left-0 leftArrow10" onClick="leftScroll('.scroll10','.leftArrow10')">
+      <button class="p-4 h-32 outline-none hover:bg-gray-900 hover:bg-opacity-50 outline-none focus:outline-none"><i class="fas fa-angle-left"></i></button>
+    </div>
+
+    <div class="container-carousel scroll10">
+      <div class="carousel grid gap-2">
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/img/themidnightsky.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/img/theprestige.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/img/yourname.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/img/znation.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/img/blackmirror.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/img/atypical.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/img/assassinscreed.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/img/alteredcarbon.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+
+          <a href="#">
+            <img class="rounded" src="./assets/img/3_.png" alt="undifined">
+          </a>
+        </div>
+        <div class="pics">
+          <a href="#">
+            <img class="rounded" src="./assets/img/blacklist.png" alt="undifined">
+          </a>
+        </div>
       </div>
     </div>
-    <div class="row-3">
-      <a href="#"> </a>
+
+    <!-- right arrow -->
+    <div class="right-arrow absolute right-0 rightArrow10" onClick="rightScroll('.scroll10','.rightArrow10')">
+      <button class="p-4 h-32 outline-none hover:bg-gray-900 hover:bg-opacity-50 outline-none focus:outline-none"><i class="fas fa-angle-right"></i></button>
     </div>
+
   </div>
 </div>
 
-    <!-- Box End -->
-  </div>
-
-  <!-- PREMIERE CAROUSEL -->
-
-  <!-- DEUXIEME CAROUSEL -->
-    
-    <h1 class="ml-16 text-2xl font-bold pt-4 text-white">My List</h1>
-<!-- partial:index.partial.html -->
-<div id="dailymotion">
-  <div class="owl-carousel owl-theme">
-    <div class="box">
-  <img src="./images/movies/MyList/1.PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
-      </div>
-    </div>
-    <div class="row-3">
-      <a href="#"> </a>
-    </div>
-  </div>
-</div>
-
-    
-    <!-- Box Start -->
-<div class="box">
-  <img src="./images/movies/MyList/2.PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
-      </div>
-    </div>
-    <div class="row-3">
-      <a href="#"> </a>
-    </div>
-  </div>
-</div>
-<!-- Box End -->
-
-
-    <!-- Box Start -->
-<div class="box">
-  <img src="./images/movies/MyList/3.PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
-      </div>
-    </div>
-    <div class="row-3">
-      <a href="#"> </a>
-    </div>
-  </div>
-</div>
-<!-- Box End -->
-
-
-    <!-- Box Start -->
-<div class="box">
-  <img src="./images/movies/MyList/4.PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
-      </div>
-    </div>
-    <div class="row-3">
-      <a href="#"> </a>
-    </div>
-  </div>
-</div>
-<!-- Box End -->
-
-
-    <!-- Box Start -->
-<div class="box">
-  <img src="./images/movies/MyList/5.PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
-      </div>
-    </div>
-    <div class="row-3">
-      <a href="#"> </a>
-    </div>
-  </div>
-</div>
-<!-- Box End -->
-
-
-    <!-- Box Start -->
-<div class="box">
-  <img src="./images/movies/MyList/6.PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
-      </div>
-    </div>
-    <div class="row-3">
-      <a href="#"> </a>
-    </div>
-  </div>
-</div>
-<!-- Box End -->
-
-
-    <!-- Box Start -->
-<div class="box">
-  <img src="./images/movies/MyList/7.PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
-      </div>
-    </div>
-    <div class="row-3">
-      <a href="#"> </a>
-    </div>
-  </div>
-</div>
-<!-- Box End -->
-
-
-   <!-- Box Start -->
-<div class="box">
-  <img src="./images/movies/MyList/8.PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
-      </div>
-    </div>
-    <div class="row-3">
-      <a href="#"> </a>
-    </div>
-  </div>
-</div>
-<!-- Box End -->
-
-
-    <!-- Box Start -->
-<div class="box">
-  <img src="./images/movies/MyList/9.PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
-      </div>
-    </div>
-    <div class="row-3">
-      <a href="#"> </a>
-    </div>
-  </div>
-</div>
-<!-- Box End -->
-
-  </div>
-
-  <!-- DEUXIEME CAROUSEL -->
-
-  <!-- TROISIEME CAROUSEL -->
-    
-    <h1 class="ml-16 text-2xl font-bold pt-4 text-white">Continue Watching for Mathieu</h1>
-<!-- partial:index.partial.html -->
-<div id="dailymotion">
-  <div class="owl-carousel owl-theme">
-    <div class="box">
-  <img src="./images/movies/Continue Watching for Mathieu/1.PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
-      </div>
-    </div>
-    <div class="row-3">
-      <a href="#"> </a>
-    </div>
-  </div>
-</div>
-
-
-
-    
-    <!-- Box Start -->
-<div class="box">
-  <img src="./images/movies/Continue Watching for Mathieu/2.PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
-      </div>
-    </div>
-    <div class="row-3">
-      <a href="#"> </a>
-    </div>
-  </div>
-</div>
-<!-- Box End -->
-
-    <!-- Box Start -->
-<div class="box">
-  <img src="./images/movies/Continue Watching for Mathieu/3.PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
-      </div>
-    </div>
-    <div class="row-3">
-      <a href="#"> </a>
-    </div>
-  </div>
-</div>
-<!-- Box End -->
-</div>
-
-<div class=" relative pt-1 w-2/3 ml-12 md:hidden lg:ml-12  lg:w-2/12">
-  <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-white">
-    <div style="width:30%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-red-700"></div>
-  </div>
-</div>
-
-<div class="grid justify-self-start md:hidden lg:mr-20 lg:-mt-8">
-<div class="relative pt-1 w-2/3 ml-12 lg:justify-self-center lg:w-2/12">
-  <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-white">
-    <div style="width:30%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-red-700"></div>
-  </div>
-</div>
-</div>
-
-
-
-
-
-  <!-- TROISIEME CAROUSEL -->
-
-  <!-- QUATRIEME CAROUSEL -->
-    
-    <h1 class="ml-16 text-2xl font-bold pt-4 text-white">Netflix Originals</h1>
-<!-- partial:index.partial.html -->
-<div id="dailymotion">
-  <div class="owl-carousel owl-theme">
-    <div class="box">
-  <img src="./images/movies/Originals/1.PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
-      </div>
-    </div>
-    <div class="row-3">
-      <a href="#"> </a>
-    </div>
-  </div>
-</div>
-
-    
-    <!-- Box Start -->
-<div class="box">
-  <img src="./images/movies/Originals/2.PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
-      </div>
-    </div>
-    <div class="row-3">
-      <a href="#"> </a>
-    </div>
-  </div>
-</div>
-<!-- Box End -->
-
-
-    <!-- Box Start -->
-<div class="box">
-  <img src="./images/movies/Originals/3.PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
-      </div>
-    </div>
-    <div class="row-3">
-      <a href="#"> </a>
-    </div>
-  </div>
-</div>
-<!-- Box End -->
-
-
-    <!-- Box Start -->
-<div class="box">
-  <img src="./images/movies/Originals/4.PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
-      </div>
-    </div>
-    <div class="row-3">
-      <a href="#"> </a>
-    </div>
-  </div>
-</div>
-<!-- Box End -->
-
-
-    <!-- Box Start -->
-<div class="box">
-  <img src="./images/movies/Originals/5.PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
-      </div>
-    </div>
-    <div class="row-3">
-      <a href="#"> </a>
-    </div>
-  </div>
-</div>
-<!-- Box End -->
-
-
-    <!-- Box Start -->
-<div class="box">
-  <img src="./images/movies/Originals/6.PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
-      </div>
-    </div>
-    <div class="row-3">
-      <a href="#"> </a>
-    </div>
-  </div>
-</div>
-<!-- Box End -->
-
-
-    <!-- Box Start -->
-<div class="box">
-  <img src="./images/movies/Originals/7.PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
-      </div>
-    </div>
-    <div class="row-3">
-      <a href="#"> </a>
-    </div>
-  </div>
-</div>
-<!-- Box End -->
-
-
-   <!-- Box Start -->
-<div class="box">
-  <img src="./images/movies/Originals/8.PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
-      </div>
-    </div>
-    <div class="row-3">
-      <a href="#"> </a>
-    </div>
-  </div>
-</div>
-<!-- Box End -->
-
-
-    <!-- Box Start -->
-<div class="box">
-  <img src="./images/movies/Originals/9.PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
-      </div>
-    </div>
-    <div class="row-3">
-      <a href="#"> </a>
-    </div>
-  </div>
-</div>
-<!-- Box End -->
-
-  </div>
-
-  <!-- QUATRIEME CAROUSEL -->
-
-  <!-- CINQUIEME CAROUSEL -->
-    
-    <h1 class="ml-16 text-2xl font-bold pt-4 text-white">Top 10 in France Today</h1>
-
-<div id="dailymotion" class="-mt-12">
-  <div class="owl-carousel owl-theme">
-    <div class="box">
-  <img src="./images/movies/Top10/1.PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
-      </div>
-    </div>
-    <div class="row-3">
-      <a href="#"> </a>
-    </div>
-  </div>
-</div>
-
-    
-    <!-- Box Start -->
-<div class="box">
-  <img src="./images/movies/Top10/2.PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
-      </div>
-    </div>
-    <div class="row-3">
-      <a href="#"> </a>
-    </div>
-  </div>
-</div>
-<!-- Box End -->
-
-
-    <!-- Box Start -->
-<div class="box">
-  <img src="./images/movies/Top10/3.PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
-      </div>
-    </div>
-    <div class="row-3">
-      <a href="#"> </a>
-    </div>
-  </div>
-</div>
-<!-- Box End -->
-
-
-    <!-- Box Start -->
-<div class="box">
-  <img src="./images/movies/Top10/4.PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
-      </div>
-    </div>
-    <div class="row-3">
-      <a href="#"> </a>
-    </div>
-  </div>
-</div>
-<!-- Box End -->
-
-
-    <!-- Box Start -->
-<div class="box">
-  <img src="./images/movies/Top10/5.PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
-      </div>
-    </div>
-    <div class="row-3">
-      <a href="#"> </a>
-    </div>
-  </div>
-</div>
-<!-- Box End -->
-
-
-    <!-- Box Start -->
-<div class="box">
-  <img src="./images/movies/Top10/6.PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
-      </div>
-    </div>
-    <div class="row-3">
-      <a href="#"> </a>
-    </div>
-  </div>
-</div>
-<!-- Box End -->
-
-
-    <!-- Box Start -->
-<div class="box">
-  <img src="./images/movies/Top10/7.PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
-      </div>
-    </div>
-    <div class="row-3">
-      <a href="#"> </a>
-    </div>
-  </div>
-</div>
-<!-- Box End -->
-
-
-   <!-- Box Start -->
-<div class="box">
-  <img src="./images/movies/Top10/8.PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
-      </div>
-    </div>
-    <div class="row-3">
-      <a href="#"> </a>
-    </div>
-  </div>
-</div>
-<!-- Box End -->
-
-
-    <!-- Box Start -->
-<div class="box">
-  <img src="./images/movies/Top10/9.PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
-      </div>
-    </div>
-    <div class="row-3">
-      <a href="#"> </a>
-    </div>
-  </div>
-</div>
-<!-- Box End -->
-
-    <!-- Box Start -->
-<div class="box">
-  <img src="./images/movies/Top10/10.PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
-      </div>
-    </div>
-    <div class="row-3">
-      <a href="#"> </a>
-    </div>
-  </div>
-</div>
-<!-- Box End -->
-
-  </div>
-    
-
-  <!-- CINQUIEME CAROUSEL -->
-
-  <!-- SIXIEME CAROUSEL -->
-    
-    <h1 class="ml-16 text-2xl font-bold pt-4 text-white">Watch It Again</h1>
-<!-- partial:index.partial.html -->
-<div id="dailymotion">
-  <div class="owl-carousel owl-theme">
-    <div class="box">
-  <img src="./images/movies/WatchItAgain/1.PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
-      </div>
-    </div>
-    <div class="row-3">
-      <a href="#"> </a>
-    </div>
-  </div>
-</div>
-
-    
-    <!-- Box Start -->
-<div class="box">
-  <img src="./images/movies/WatchItAgain/2.PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
-      </div>
-    </div>
-    <div class="row-3">
-      <a href="#"> </a>
-    </div>
-  </div>
-</div>
-<!-- Box End -->
-
-
-    <!-- Box Start -->
-<div class="box">
-  <img src="./images/movies/WatchItAgain/3.PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
-      </div>
-    </div>
-    <div class="row-3">
-      <a href="#"> </a>
-    </div>
-  </div>
-</div>
-<!-- Box End -->
-
-
-    <!-- Box Start -->
-<div class="box">
-  <img src="./images/movies/WatchItAgain/4.PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
-      </div>
-    </div>
-    <div class="row-3">
-      <a href="#"> </a>
-    </div>
-  </div>
-</div>
-<!-- Box End -->
-
-
-    <!-- Box Start -->
-<div class="box">
-  <img src="./images/movies/WatchItAgain/5.PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
-      </div>
-    </div>
-    <div class="row-3">
-      <a href="#"> </a>
-    </div>
-  </div>
-</div>
-<!-- Box End -->
-
-
-    <!-- Box Start -->
-<div class="box">
-  <img src="./images/movies/WatchItAgain/6.PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
-      </div>
-    </div>
-    <div class="row-3">
-      <a href="#"> </a>
-    </div>
-  </div>
-</div>
-<!-- Box End -->
-
-
-    <!-- Box Start -->
-<div class="box">
-  <img src="./images/movies/WatchItAgain/7.PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
-      </div>
-    </div>
-    <div class="row-3">
-      <a href="#"> </a>
-    </div>
-  </div>
-</div>
-<!-- Box End -->
-
-
-   <!-- Box Start -->
-<div class="box">
-  <img src="./images/movies/WatchItAgain/8.PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
-      </div>
-    </div>
-    <div class="row-3">
-      <a href="#"> </a>
-    </div>
-  </div>
-</div>
-<!-- Box End -->
-
-
-    <!-- Box Start -->
-<div class="box">
-  <img src="./images/movies/WatchItAgain/9.PNG" />
-  <div class="overlay">
-    <div class="row-1"></div>
-    <div class="row-2">
-      <div class="play-button">
-        <a href="#"> </a>
-      </div>
-    </div>
-    <div class="row-3">
-      <a href="#"> </a>
-    </div>
-  </div>
-</div>
-<!-- Box End -->
-
-  </div>
-
-  <!-- SIXIEME CAROUSEL -->
+</section>
   
 <!--footer-->
 
-  <section class="flex justify-center  pt-16 pb-4">
-    <div class="space-y-2  ml-12 md:w-2/3 lg:w-1/2 lg:ml-0">
-
-    <!--Social Media-->
-
-    <div class="flex space-x-5 ">
-      <i class="fab fa-facebook-square"></i>
-      <i class="fab fa-instagram"></i>
-      <i class="fab fa-twitter"></i>
-      <i class="fab fa-youtube"></i>
-    </div>
-
-    <!--Social Media-->
-
-    <!-- Footer Text -->
+<footer class="w-4/6 mx-auto py-8 text-gray-600 text-xs">
     
-    <div class="flex justify-between pr-4 md:pr-8">
-      <div class="flex flex-col text-sm ">
-        <p class="text-gray-400 pb-4">Audio and Subtitles</p>
-        <p class="text-gray-400 pb-4">Media Centre</p>
-        <p class="text-gray-400 pb-4">Privacy</p>
-        <p class="text-gray-400 pb-4">Contact Us</p>
-      </div>
-      <div class="flex flex-col text-sm pr-4 md:pr-8">
-        <p class="text-gray-400 pb-4">Audio Description</p>
-        <p class="text-gray-400 pb-4">Investor Relations</p>
-        <p class="text-gray-400 pb-4">Legal Notices</p>
-      </div>
-      <div class="flex flex-col text-sm pr-4 md:pr-8">
-        <P class="text-gray-400 pb-4">Help Center</P>
-        <P class="text-gray-400 pb-4">Jobs</P>
-        <P class="text-gray-400 pb-4">Cookies Preferences</P>
-      </div>
-      <div class="flex flex-col text-sm pr-4 md:pr-8">
-        <P class="text-gray-400 pb-4">Gift Cards</P>
-        <P class="text-gray-400 pb-4">Terms of Use</P>
-        <P class="text-gray-400 pb-4">Corporate Information </P>
-      </div>
-    </div>
+                <div class="flex text-3xl space-x-5 py-4">
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
 
-    <!-- Footer Text -->
-
-    <!--Service code button-->
+                <div class="grid gap-y-4 grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4">
+                    <div>
+                        <a href="#">Audio and Subtitles</a>
+                    </div>
+                    <div>
+                        <a href="#">Audio Description</a>
+                    </div>
+                    <div>
+                        <a href="#">Help Center</a>
+                    </div>
+                    <div>
+                        <a href="#">Gift Cards</a>
+                    </div>
+                    <div>
+                        <a href="#">Media Center</a>
+                    </div>
+                    <div>
+                        <a href="#">Investor Relations</a>
+                    </div>
+                    <div>
+                        <a href="#">Jobs</a>
+                    </div>
+                    <div>
+                        <a href="#">Terms of Use</a>
+                    </div>
+                    <div>
+                        <a href="#">Privacy</a>
+                    </div>
+                    <div>
+                        <a href="#">Legal Notices</a>
+                    </div>
+                    <div>
+                        <a href="#">Cookie Preferences</a>
+                    </div>
+                    <div>
+                        <a href="#">Corporate Informations</a>
+                    </div>
+                    <div>
+                        <a href="#">Contact Us</a>
+                    </div>
+                    
+                </div>
     
-    <div class="pb-4">
-      <button
-        class="text-gray-400 border border-gray-400 px-2 py-1 hover:bg-gray-900"
-      >
-        <p class="text-sm hover:text-gray-300 ">Service Code</p>
-      </button>
-    </div>
+                <div class="py-6 mt-6">
+                    <button class="p-2 border border-gray-600 cursor-pointer hover:text-white">Service Code</button>
+                </div>
+                
+                <p>&copy 1997-2021 Netflix, Inc. {i-0000000000000000000}</p>
 
-    <!--Service code button-->
-
-    <!--Copyright-->
-
-    <div class="flex text-gray-400 text-xs align-center">
-      <p class="items-center">© 1997-2021 Netflix, Inc. {i-058c0143344da746e}</p>
-    </div>
-
-    <!--Copyright-->
-
-  </div>
-</section>
+    
+        </footer>
 
 
 </body>

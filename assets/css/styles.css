@@ -1,0 +1,39 @@
+.pics {
+  min-width: 20%;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+  .pics {
+    min-width: 25%;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 800px) {
+  .pics {
+    min-width: 40%;
+  }
+}
+
+/* carousel */
+.container-carousel .carousel {
+  display: flex;
+  align-items: center;
+}
+
+.container-carousel {
+  overflow-x: scroll;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+/* ------------------------------------------------------------------------------------------------ BON CSS */
+
+.pics .box {
+  overflow: hidden;
+  transition: 1s;
+}
+
+.pics .box:hover {
+  z-index: 20;
+  height: 310px;
+}
